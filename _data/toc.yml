@@ -1,0 +1,29 @@
+- title: Getting Started
+  url: docs
+  links:
+    - title: "Prerequisites"
+      url: "docs/prereqs"
+    - title: "Quote Engine Flow"
+      url: "docs/qe-steps"
+      children:
+        - title: "Step 1: Request a Quote"
+          url: "docs/qe-steps#step-1-make-a-request-to-quote-endpoint"
+        - title: "Step 2: Display Quote Details"
+          url: "docs/qe-steps#step-2-display-quote-details-to-customer"
+        - title: "Step 3: Redirect to Quote Engine"
+          url: "docs/qe-steps#step-3-redirect-customer-to-quote-engine"
+    - title: "Stripe Purchase Flow"
+      url: "docs/steps"
+      children:
+        - title: "Step 1: Request a Quote"
+          url: "docs/steps#step-1-make-a-request-to-quote-endpoint"
+        - title: "Step 2: Request a Checkout"
+          url: "docs/steps#step-2-make-a-request-to-the-checkout-endpoint"
+        - title: "Step 3: Initialize Stripe and Display Checkout"
+          url: "docs/steps#step-3-initialize-stripe-and-display-checkout"
+        - title: "Step 4: Call the Purchase Endpoint"
+          url: "docs/steps#step-4-call-the-purchase-endpoint"
+    - title: "Testing"
+      url: "docs/testing"
+    - title: "Error Handling"
+      url: "docs/error-handling"
