@@ -13,7 +13,7 @@ permalink: /docs/
 
 Alternatively, to simplify the completion of policy purchases without setting up Stripe Elements, you may redirect customers to the Quote Engine after generating a quote, where they can finalize the purchase.
 
-Make sure to check the [**Prerequisites**](prereqs) page 
+Make sure to check the [**Prerequisites**](prereqs) page before getting started.
 
 #### [Option 1: Redirect to Quote Engine](qe-steps) 
 
