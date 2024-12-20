@@ -14,7 +14,7 @@ description: How to redirect customer to Quote Engine for policy purchase
 ## Step 1: Make a Request to Quote endpoint
 In order to get the redirect URL for Quote Engine, you'll need to make a request to Embrace's `/quotes/fullquote` endpoint.
 
-Before you call this endpoint, you must have all of the details for the quote. Make sure to view our [**quote page**](https://docs.embrace.dev/api-details#api=embrace-quote-api-dev-v2&operation=post-quotes-fullquote) to get the full endpoint and schema.
+Before you call this endpoint, you must have all of the details for the quote. Make sure to view our [**quote page**](https://docs.embrace.dev/api-details#api=embrace-quote-api-2&operation=post-quotes-fullquote) to get the full endpoint and schema.
 
 <!-- Nav tabs -->
 <ul class="nav nav-tabs" id="codeTabs" role="tablist">

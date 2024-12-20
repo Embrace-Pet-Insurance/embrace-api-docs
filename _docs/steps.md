@@ -14,7 +14,7 @@ description: How to implement Stripe and the Embrace API, step-by-step
 ## Step 1: Make a Request to Quote endpoint
 In order to get the quote ID neccessary for a Stripe checkout, you will first need to make a request to Embrace's `/quotes/fullquote` endpoint.
 
-Before you call this endpoint, you must have all of the details for the quote. Make sure to view our [**quote page**](https://docs.embrace.dev/api-details#api=embrace-quote-api-dev-v2&operation=post-quotes-fullquote) to see the full endpoint and schema.
+Before you call this endpoint, you must have all of the details for the quote. Make sure to view our [**quote page**](https://docs.embrace.dev/api-details#api=embrace-quote-api-2&operation=post-quotes-fullquote) to see the full endpoint and schema.
 
 {% include alert.html type="warning" title="Note" content="The below example does not show the full quote request schema. Please view the full request schema to see all available options." %}
 
@@ -137,7 +137,7 @@ With a successful `quote` response, a **`quoteId`** will be returned. In the exa
 ## Step 2: Make a Request to the Checkout endpoint
 Once the customer has confirmed their quote details, and are ready to checkout, you will need to make a request to Embrace's Checkout endpoint `/quotes/{quoteId}/checkout`. 
 
-More details on the `checkout` request, response, and the full endpoint can be found in our [**checkout endpoint page**](https://docs.embrace.dev/api-details#api=embrace-quote-api-dev-v2&operation=post-quotes-checkout)
+More details on the `checkout` request, response, and the full endpoint can be found in our [**checkout endpoint page**](https://docs.embrace.dev/api-details#api=embrace-quote-api-2&operation=post-quotes-quoteid-checkout)
 
 <!-- Nav tabs -->
 <ul class="nav nav-tabs" id="step2CodeTabs" role="tablist">
@@ -628,7 +628,7 @@ To test this checkout, you can use Stripe's test cards. Check the [**Testing**](
 ## Step 4: Call the Purchase Endpoint
 To finalize the policy purchase, you will need to call the `purchase-stripe` endpoint, and pass in the `payment_method` ID that was returned from Stripe. 
 
-Make sure to view our [**purchase-stripe endpoint page**](https://docs.embrace.dev/api-details#api=embrace-quote-api-dev-v2&operation=post-quotes-fullquote-quoteid-purchase) to see the full endpoint and request schema.
+Make sure to view our [**purchase-stripe endpoint page**](https://docs.embrace.dev/api-details#api=embrace-quote-api-2&operation=post-quotes-fullquote-quoteid-purchase-stripe) to see the full endpoint and request schema.
 
 <!-- Nav tabs -->
 <ul class="nav nav-tabs" id="step2CodeTabs" role="tablist">
