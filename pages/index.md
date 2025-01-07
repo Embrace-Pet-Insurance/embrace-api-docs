@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Embrace Parter API Documentation
+title: Embrace Partner API Documentation
 permalink: /
 ---
 <head>
